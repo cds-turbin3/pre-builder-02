@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "spl:init": "pnpx ts-node src/spl/spl_init.ts"
+        "spl:init": "pnpx ts-node src/spl/spl_init.ts",
+        "spl:metadata": "pnpx ts-node src/spl/spl_metadata.ts"
     },
     "keywords": [],
     "author": "cds-amal",
