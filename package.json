@@ -8,7 +8,8 @@
         "spl:metadata": "tsc && pnpx ts-node src/spl/spl_metadata.ts",
         "spl:mint": "tsc && pnpx ts-node src/spl/spl_mint.ts",
         "spl:transfer": "tsc && pnpx ts-node src/spl/spl_transfer.ts",
-        "nft:image": "tsc && pnpx ts-node src/nft/nft_image.ts"
+        "nft:image": "tsc && pnpx ts-node src/nft/nft_image.ts",
+        "nft:metadata": "tsc && pnpx ts-node src/nft/nft_metadata.ts"
     },
     "keywords": [],
     "author": "cds-amal",
