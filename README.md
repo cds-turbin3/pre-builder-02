@@ -10,3 +10,4 @@
 
 1. [NFT Image](https://gateway.irys.xyz/CY68pPxTmnRuaDDDeKpD6A6bSxXEGTCqUX2D78vJhFzg)
 1. [NFT Metadata](https://gateway.irys.xyz/Fz4CHtp9PcPSmhLCkXfQikfLgBi2Ld9oBVZ6de8giTiy)
+1. [NFT Mint Tx](https://solscan.io/tx/2X2Ke6wB18jsgh5u8M45dWkdxW3441ma3RqYzSkd4DZBmZJTLLw1mTDRvwkrKAdv7dkqaAatBo75V9yRKZ18GPhY?cluster=devnet) -- [Asset Account](https://solscan.io/account/A7tFTCdjYSzvFr88ue5Ny51MtDFwXUxCw5AsAdR13z7S?cluster=devnet)
