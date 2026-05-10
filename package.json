@@ -1,36 +1,38 @@
 {
-    "name": "spl",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "spl:init": "tsc && pnpx ts-node src/spl/spl_init.ts",
-        "spl:metadata": "tsc && pnpx ts-node src/spl/spl_metadata.ts",
-        "spl:mint": "tsc && pnpx ts-node src/spl/spl_mint.ts",
-        "spl:transfer": "tsc && pnpx ts-node src/spl/spl_transfer.ts",
-        "nft:image": "tsc && pnpx ts-node src/nft/nft_image.ts",
-        "nft:metadata": "tsc && pnpx ts-node src/nft/nft_metadata.ts",
-        "nft:mint": "tsc && pnpx ts-node src/nft/nft_mint.ts"
-    },
-    "keywords": [],
-    "author": "cds-amal",
-    "license": "MIT",
-    "type": "commonjs",
-    "packageManager": "pnpm@10.33.3",
-    "dependencies": {
-        "@metaplex-foundation/mpl-core": "^1.10.0",
-        "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
-        "@metaplex-foundation/umi": "^1.5.1",
-        "@metaplex-foundation/umi-bundle-defaults": "^1.5.1",
-        "@metaplex-foundation/umi-uploader-irys": "^1.5.0",
-        "@solana-program/system": "^0.12.0",
-        "@solana-program/token": "^0.13.0",
-        "@solana/kit": "^6.8.0",
-        "bs58": "^6.0.0"
-    },
-    "devDependencies": {
-        "@types/node": "^25.6.0",
-        "ts-node": "^10.9.2",
-        "typescript": "^6.0.3"
-    }
+  "name": "spl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "spl:init": "tsc && pnpx ts-node src/spl/spl_init.ts",
+    "spl:metadata": "tsc && pnpx ts-node src/spl/spl_metadata.ts",
+    "spl:mint": "tsc && pnpx ts-node src/spl/spl_mint.ts",
+    "spl:transfer": "tsc && pnpx ts-node src/spl/spl_transfer.ts",
+    "nft:image": "tsc && pnpx ts-node src/nft/nft_image.ts",
+    "nft:metadata": "tsc && pnpx ts-node src/nft/nft_metadata.ts",
+    "nft:mint": "tsc && pnpx ts-node src/nft/nft_mint.ts",
+    "nft:autograph": "tsc && pnpx ts-node src/nft/nft_autograph.ts"
+  },
+  "keywords": [],
+  "author": "cds-amal",
+  "license": "MIT",
+  "type": "commonjs",
+  "packageManager": "pnpm@10.33.3",
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.10.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.5.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.5.1",
+    "@metaplex-foundation/umi-uploader-irys": "^1.5.0",
+    "@solana-program/system": "^0.12.0",
+    "@solana-program/token": "^0.13.0",
+    "@solana/kit": "^6.8.0",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }
